@@ -4,3 +4,11 @@ $cinza-claro: #DFE6ED;
 $cinza-medio: #C3CFD9;
 $cinza-escuro: #788895;
 $roxo: #6558F5;
+$texto: #293845;
+$sucesso: #1aae9f;
+$erro: #d3455b;
+
+:root {
+    --erro: #{$erro};
+    --sucesso: #{$sucesso};
+  }

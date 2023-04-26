@@ -19,20 +19,32 @@
         <![endif]-->
 
     <header>
-        <h1>Página do Gerente</h1>
+        <h1>Página do Cliente</h1>
         <nav>
-            <a href="lista.html">Lista</a>
-            <a href="#">Gerencia</a>
+            <a href="#">Lista</a>
+            <a href="index.html">Gerencia</a>
         </nav>
     </header>
     <main>
-        <div class="card-livro">
-            <h1>Novo Livro</h1>
-            <input placeholder="Título" type="text" name="" id="title">
-            <input placeholder="Descrição" type="text" name="" id="description">
-            <button id="cadastrar">Cadastrar</button>
-            <div class="status">Sucesso!</div>
-        </div>
+            <div class="descricao">
+                <h1>Lista de Livros</h1>
+                <input type="text" placeholder="Buscar" name="" id="buscarLivros" class="buscar">
+            </div>
+
+            <table id="tabela" class="tabela">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+
+
+
     </main>
 
 </body>

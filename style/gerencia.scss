@@ -1,0 +1,10 @@
+@import "cores";
+
+main {
+    display: flex;
+    padding: 20px 30px;
+    background-color: $cinza-claro;
+    border-radius: 5px;
+    border: $cinza-escuro 2px solid;
+    width: 23%;
+}

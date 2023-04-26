@@ -1,3 +1,83 @@
 @import "cores";
 @import "reset";
 
+body {
+    background-color: $verde;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 500px;
+}
+
+h1 {
+    color: $texto;
+}
+
+nav {
+    display: flex;
+    gap: 5px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    background-color: $roxo;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.card-livro {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 5px;
+    align-items: center;
+
+    input,
+    button {
+        width: 100%;
+        padding: 5px;
+    }
+
+    button {
+        color: white;
+        background-color: $cinza-escuro;
+        border-radius: 5px;
+    }
+
+    h1 {
+        margin-top: 0;
+    }
+
+}
+
+.status {
+    background-color: var(--erro);
+    display: none;
+}
+
+.status--show {
+    display: block;
+}
+
+.status--erro {
+    background-color: var(--erro);
+    display: block;
+}
+
+.status--sucesso {
+    background-color: var(--sucesso);
+    display: block;
+}
